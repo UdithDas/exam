@@ -1,5 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Movies from './components/Movies2';
+import Addmovie from './components/Addmovie';
+
 
 function App() {
   return (
